@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block contents %}
+<div class="row">
+    <div class="col-12">
+        <h1>로그인</h1>
+    </div>
+</div>
+<div class="row mt-5">
+    <div class="col-12">
+        {{error}}
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <form method="POST" action="."> <!-- 현재 액션으로 POST 날림 -->
+            {% csrf_token %} <!-- 서버 전달시 csrf 공격 방지 용 -->
+            {{ form }}
+            <button type="submit" class="btn btn-primary">로그인</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
