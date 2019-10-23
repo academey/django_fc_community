@@ -22,6 +22,14 @@ def logout(request):
 
 def login(request):
     form = LoginForm()
+    if request.method == 'POST':
+        form = LoginForm(request.POST)
+        if form.is_valid(): # 내재된 검증 함수
+            request.session['user'] = form.user_id
+            return redirect('/')
+    else:
+        form = LoginForm() # 빈 폼을 전달해서 뷰에 렌더링시켜ㅑ줌
+
     return render(request, 'login.html', {'form': form})
 
     # if request.method == 'GET':

@@ -14,7 +14,15 @@
     <div class="col-12">
         <form method="POST" action="."> <!-- 현재 액션으로 POST 날림 -->
             {% csrf_token %} <!-- 서버 전달시 csrf 공격 방지 용 -->
-            {{ form }}
+            {% for field in form %}
+            <div class="form-group">
+                <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+                <input type="{{ field.field.widget.input_type }}" class="form-control" id="{{ field.id_for_label }}" placeholder="{{ field.label }}" name="{{ field.name }}" />
+            </div>
+            {% if field.errors %}
+            <span style="color: red">{{ field.errors }}</span>
+            {% endif %}
+            {% endfor %}
             <button type="submit" class="btn btn-primary">로그인</button>
         </form>
     </div>
