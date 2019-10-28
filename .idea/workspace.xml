@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="711781a8-9b96-4fca-be28-833657a7b0a6" name="Default Changelist" comment="" />
+    <list default="true" id="711781a8-9b96-4fca-be28-833657a7b0a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fc_community/board/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fc_community/board/templates/board_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fc_community/board/templates/board_write.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fc_community/board/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/fc_community/board/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fc_community/board/templates/board_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/fc_community/board/templates/board_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fc_community/board/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/fc_community/board/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fc_community/board/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/fc_community/board/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fc_community/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/fc_community/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fc_community/fcuser/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/fc_community/fcuser/forms.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +24,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SUZmFxytxlhovLPt97EOa1EVoa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fc_community/fcuser/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fc_community/board/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -27,6 +43,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fc_community/board/templates" />
+      <recent name="$PROJECT_DIR$/fc_community/board" />
       <recent name="$PROJECT_DIR$/fc_community/fcuser/templates" />
       <recent name="$PROJECT_DIR$/fc_community/fcuser/static" />
     </key>
@@ -54,11 +72,31 @@
       <option name="presentableId" value="Default" />
       <updated>1571620291034</updated>
       <workItem from="1571620293529" duration="5622000" />
-      <workItem from="1571699108467" duration="3638000" />
+      <workItem from="1571699108467" duration="6054000" />
+      <workItem from="1571789656630" duration="1601000" />
+      <workItem from="1571810540860" duration="3561000" />
+      <workItem from="1572226400331" duration="3256000" />
+      <workItem from="1572231376798" duration="706000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
