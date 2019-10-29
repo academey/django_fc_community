@@ -11,3 +11,4 @@ class BoardForm(forms.Form):
                                    'required': '내용을 입력해주세요'
                                })
     # 빈칸 검증을 제외한 검증은 따로 필요없을 것 같으니 clean 함수는 없앤다.
+    tags = forms.CharField(required=False, label="태그")
